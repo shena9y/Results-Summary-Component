@@ -11,6 +11,7 @@ Users should be able to:
 
 
 ### Screenshot
-[SCREENSHOT](/design/ProjectScreenShot.png)
+![SCREENSHOT](/design/ProjectScreenShot.png)
+
 
 
