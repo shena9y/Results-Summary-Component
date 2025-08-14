@@ -11,4 +11,5 @@ Users should be able to:
 
 
 ### Screenshot
-[FireShot](https://getfireshot.com/)
+[FireShot](/design/ProjectScreenShot.png)
+
