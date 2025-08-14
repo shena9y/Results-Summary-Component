@@ -150,16 +150,16 @@ body {
   border-radius: 12px;
 }
 .container .right button {
-  width: 75%;
-  border: none;
-  height: 50px;
-  border-radius: 30px;
-  color: white;
-  font-size: 18px;
-  font-weight: 400;
-  background-color: var(--Dark-gray-blue);
-  cursor: pointer;
-  margin-top: 30px;
+  width: 90%;
+    border: none;
+    height: 55px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: var(--Dark-gray-blue);
+    cursor: pointer;
+    margin-top: 30px;
 }
 .container .right button:hover {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -200,3 +200,4 @@ body {
     margin: 25px 20px;
   }
 }
+
