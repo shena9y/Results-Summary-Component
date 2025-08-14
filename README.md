@@ -32,6 +32,12 @@ Users should be able to:
 - Linear Gradient
 
 ```css
+.container .left {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.container .left .circle {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
 .container .right button:hover {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
@@ -45,6 +51,7 @@ Users should be able to:
 
 
 ## [Watch The Live Site](https://shena9y.github.io/Results-Summary-Component/)
+
 
 
 
