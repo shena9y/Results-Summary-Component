@@ -11,5 +11,6 @@ Users should be able to:
 
 
 ### Screenshot
-[FireShot](/design/ProjectScreenShot.png)
+[SCREENSHOT](/design/ProjectScreenShot.png)
+
 
