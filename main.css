@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: unset;
+  padding: unset;
+}
+
+:root {
+  --Light-red: hsl(0, 100%, 67%);
+  --Orangey-yellow: hsl(39, 100%, 56%);
+  --Green-teal: hsl(166, 100%, 37%);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+li {
+  list-style-type: none;
+}
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: var(--Pale-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: var(--White);
+  width: 700px;
+  height: 500px;
+  box-shadow: 5px 5px 15px #00000015;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .left {
+  width: 50%;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 0 30px;
+  align-items: center;
+}
+.container .left > p {
+  color: var(--Light-lavender);
+  font-size: 22px;
+}
+.container .left .circle {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.container .left .circle p:first-child {
+  color: var(--White);
+  font-size: 55px;
+  font-weight: 900;
+}
+.container .left .circle p:last-child {
+  color: var(--Light-lavender);
+  opacity: 0.7;
+}
+.container .left .great {
+  font-size: 25px;
+  color: var(--White);
+  font-weight: 600;
+}
+.container .left .great + p {
+  color: var(--Light-lavender);
+  font-size: 16px;
+  width: 230px;
+}
+.container .right {
+  width: 45%;
+}
+.container .right h1 {
+  color: var(--Dark-gray-blue);
+  font-size: 25px;
+  margin: 35px 0;
+}
+.container .right ul {
+  display: flex;
+  flex-direction: column;
+}
+.container .right ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 15px;
+}
+.container .right ul li p {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+.container .right ul li p img {
+  margin-right: 10px;
+}
+.container .right ul li p:last-child {
+  color: var(--Dark-gray-blue);
+  font-weight: 800;
+}
+.container .right ul li p:last-child span {
+  color: var(--Dark-gray-blue);
+  font-weight: 800;
+  opacity: 0.5;
+  margin-left: 6px;
+}
+.container .right ul li:nth-child(1) {
+  color: var(--Light-red);
+  background-color: hsla(0, 100%, 67%, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+}
+.container .right ul li:nth-child(2) {
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(39, 100%, 56%, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+}
+.container .right ul li:nth-child(3) {
+  color: var(--Green-teal);
+  background-color: hsl(166, 100%, 37%, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+}
+.container .right ul li:nth-child(4) {
+  color: var(--Violet-blue);
+  background-color: hsl(234, 85%, 45%, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+}
+.container .right button {
+  width: 75%;
+  border: none;
+  height: 50px;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: var(--Dark-gray-blue);
+  cursor: pointer;
+  margin-top: 30px;
+}
+.container .right button:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+  }
+  .container .left {
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+    height: 48%;
+  }
+  .container .right {
+    width: 100%;
+    height: 52%;
+  }
+  .container .left > p {
+    margin: 20px 0;
+  }
+  .container .left .great + p {
+    width: 260px;
+  }
+  .container .right h1 {
+    margin: 20px 30px;
+    font-size: 20px;
+  }
+  .container .right ul {
+    align-items: center;
+    justify-content: center;
+  }
+  .container .right button {
+    width: calc(100% - 40px);
+    margin: 25px 20px;
+  }
+}
