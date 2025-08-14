@@ -10,9 +10,16 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 
+### Links
+
+- [Results summary component]([https://your-solution-url.com](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV))
+- [live site](https://shena9y.github.io/Results-Summary-Component/)
+
+
 ### Screenshot
 ![SCREENSHOT](/design/ProjectScreenShot.png)
 
 
 ## [Watch The Live Site](https://shena9y.github.io/Results-Summary-Component/)
+
 
